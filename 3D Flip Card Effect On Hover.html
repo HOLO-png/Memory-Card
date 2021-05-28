@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="3D Flip Card Effect On Hover.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <div class="modal-form disabled">
+            <div class="form-group">
+                <span class="title-form">Add New Cards</span>
+                <i class="fas fa-ban closed-modal"></i>
+              <label for="">Question</label>
+              <input type="text" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+              <small id="emailHelpId" class="form-text text-muted">Nhập tên ngôn ngữ</small>
+              <label for="">Answer</label>
+              <input type="text" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+              <small id="emailHelpId" class="form-text text-muted">Mô tả </small>
+              <label for="">Image</label>
+              <input type="text" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+              <small id="emailHelpId" class="form-text text-muted">Nhập địa chỉ ảnh </small>
+              <button class="btn btn-primary getValueInput"> <i class="fas fa-plus"></i> Add Card</button>
+            </div>
+        </div>
+        <div class="cards middle">
+            <div class="card__title">
+                <span>Memory Cards</span>
+            </div>
+            <button class="card__add-item" type="button">
+                <i class="fas fa-plus"></i>
+                <span>Add New Card</span>
+            </button>
+            <button class="card__remove-item" type="button">
+                <i class="fas fa-ban"></i>
+                <span>Remove New Card</span>
+            </button>
+            <div class="front">
+                <div class="card">
+                    <div class="img">
+                         <img class="card-img-top" src="https://icapi.org/wp-content/uploads/2019/10/anh-trai-dep-han-quoc-9.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Hoàng Long</h4>
+                        <p class="card-text">hihi 😋</p>
+                    </div>
+                    <i class="fas fa-redo"></i>
+                </div> 
+            </div>
+            <div class="back">
+                <div class="back-content middle">
+                    <h1>Zed HoangLong</h1>
+                    <span>Win100Lost1000</span>
+                    <div class="sm">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card__move">
+                <i class="fas fa-arrow-left"></i>
+                <div class="key-move">
+                    <span class="span">1</span>
+                    <span class="span">/</span>
+                    <span class="span">1</span>
+                </div>
+                <i class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+    <script src="3D Flip Card Effect On Hover.js"></script>
+</body>
+</html>
